@@ -10,15 +10,5 @@ pipeline {
                 '''
             }
         }
-        stage('Version'){
-            steps{
-                sh 'java -version'
-            }
-        }
-        stage('From-Script'){
-            steps{
-                sh 'script.sh'
-            }
-        }
     }
 }
