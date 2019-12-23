@@ -15,9 +15,9 @@ pipeline {
                 sh 'java -version'
             }
         }
-        stage('From Script'){
+        stage('From-Script'){
             steps{
-                sh 'script'
+                sh 'script.sh'
             }
         }
     }
