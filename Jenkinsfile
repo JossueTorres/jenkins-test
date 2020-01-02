@@ -23,7 +23,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/JossueTorres/jenkins-test'
+        git 'http://github.com/JossueTorres/jenkins-test'
       }
     }
     stage('Building image') {
